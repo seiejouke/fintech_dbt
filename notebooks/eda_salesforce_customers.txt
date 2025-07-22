@@ -1,0 +1,31 @@
+table; salesforce_customers
+
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 1999 entries, 0 to 1998
+Data columns (total 8 columns):
+ #   Column           Non-Null Count  Dtype  
+---  ------           --------------  -----  
+ 0   id               1999 non-null   object 
+ 1   is_deleted       1999 non-null   bool   
+ 2   account_number   1999 non-null   int64  
+ 3   name             1991 non-null   object 
+ 4   billing_country  1991 non-null   object 
+ 5   capacity_s       1993 non-null   float64
+ 6   capacity_m       1989 non-null   float64
+ 7   capacity_l       1987 non-null   float64
+dtypes: bool(1), float64(3), int64(1), object(3)
+memory usage: 111.4+ KB
+
+Missing data; 
+
+id                  0
+is_deleted          0
+account_number      0
+name                8
+billing_country     8
+capacity_s          6
+capacity_m         10
+capacity_l         12
+dtype: int64
+
+-----------
